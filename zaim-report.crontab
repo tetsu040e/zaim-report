@@ -1,0 +1,6 @@
+# m h dom mon dow command
+#
+MAILTO=""
+APPENV=/home/tetsu/work/zaim-report/env.sh
+
+0  9 * * 1 $APPENV perl /home/tetsu/work/zaim-report/report.pl > /tmp/zaim-report.log 2>&1

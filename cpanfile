@@ -1,0 +1,17 @@
+requires 'Data::Printer';
+requires 'Encode';
+requires 'File::Basename';
+requires 'File::Slurp';
+requires 'File::Spec';
+requires 'HTTP::Request::Common';
+requires 'JSON::XS';
+requires 'LWP::UserAgent';
+requires 'LWP::Protocol::https';
+requires 'OAuth::Lite::Consumer';
+requires 'OAuth::Lite::Token';
+requires 'Plack';
+requires 'Plack::Middleware::Session';
+requires 'Router::Boom';
+requires 'Time::Piece';
+requires 'Time::Seconds';
+requires 'perl', '5.28.1';

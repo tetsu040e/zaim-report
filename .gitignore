@@ -1,0 +1,4 @@
+*.swp
+var/access_token.json
+var/consumer.json
+var/line_notify.json
